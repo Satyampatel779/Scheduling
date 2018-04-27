@@ -1,0 +1,13 @@
+Round Robin Scheduling
+    Round Robin is the preemptive process scheduling algorithm.
+    Each process is provided a fix time to execute, it is called a quantum.
+    Once a process is executed for a given time period, it is preempted and other process executes for a given time period.
+    Context switching is used to save states of preempted processes.
+Round Robin Scheduling Algorithm
+Wait time of each process is as follows −
+Process 	Wait Time : Service Time - Arrival Time
+P0 	(0 - 0) + (12 - 3) = 9
+P1 	(3 - 1) = 2
+P2 	(6 - 2) + (14 - 9) + (20 - 17) = 12
+P3 	(9 - 3) + (17 - 12) = 11
+Average Wait Time: (9+2+12+11) / 4 = 8.5
